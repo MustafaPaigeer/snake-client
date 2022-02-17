@@ -7,7 +7,7 @@ const {setupInput} = require('./input');
 
 
 console.log("Connecting ...");
-connect();
 
+setupInput(connect());
 
 // \u0003 maps to ctrl+c input
